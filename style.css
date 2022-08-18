@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.titulo{
+  background-color: black;
+  color: #fff;
+  width: 42.5vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aula{
+  margin: 1.5rem 0 1.5rem;
+}
+
+.inf-aula{
+  display: flex;
+  align-items: center;
+}
+
+.numero-aula{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.divisor{
+  color: #a7a7a7;
+  font-size: 18px;
+}
+
+.desc-aula{
+  margin-left: 10px;
+
+}
+
+.base-conteudo{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 40vw;
+  min-height: 10vh;
+  margin-top: 10px;
+  position: relative;
+}
+
+.conteudo {
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.conteudo2 {
+  padding: 20px 0px;
+  display: flex;
+  margin: 0 auto;
+  
+}
+
+.conteudo2 p {
+  margin: 0 1rem;
+}
+
+.conteudo2 span {
+  margin-left: -0.5rem;
+}
+
+.btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -15px;
+  right: 30px;
+  background-color: #000;
+  width: 60px;
+  height: 30px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -15px;
+  right: 100px;
+  background-color: #000;
+  width: 60px;
+  height: 30px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn1:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn2:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#bolinhaColorida{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.animate{
+  background-color: greenyellow;
+  height: 40px;
+  width: 20px;
+  position: absolute;
+  top:40px;
+  left: 50px;
+  transition: ease-in-out 2s;
+}
